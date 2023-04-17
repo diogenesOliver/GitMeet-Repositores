@@ -1,0 +1,28 @@
+:root{
+    --text-inputColor: rgb(194, 194, 194)
+}
+
+.input-search{
+    margin-top: 2rem;
+    
+    height: 2.5rem;
+    width: 50%;
+    
+    background-color: rgba(128, 128, 128, 0.507);
+    color: var(--text-inputColor);
+
+    border: none;
+    border-radius: .5rem;
+
+    padding-inline: 1rem;
+}
+
+.input-search:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+::placeholder{
+    color: var(--text-inputColor)
+}
