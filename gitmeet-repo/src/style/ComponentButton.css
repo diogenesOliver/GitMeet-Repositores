@@ -1,0 +1,19 @@
+button{
+    height: 2.5rem;
+    width: 7rem;
+
+    outline: none;    
+    border: none;
+    border-radius: .5rem;
+
+    background: linear-gradient(to right, rgb(14, 38, 145), rgb(0, 217, 255));
+    color: white;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+button:hover{
+    border-radius: 1rem;
+}
