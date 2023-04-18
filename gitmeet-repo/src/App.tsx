@@ -1,9 +1,9 @@
 import { MainPage } from './pages/MainPage';
 
-function Main() {
+function App() {
   return (
     <MainPage/>
   );
 }
 
-export default Main;
+export default App;

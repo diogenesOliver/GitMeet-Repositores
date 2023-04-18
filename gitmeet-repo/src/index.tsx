@@ -4,7 +4,7 @@ import reportWebVitals from './reportWebVitals';
 
 import './index.css';
 
-import Main from './App'
+import App from './App'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-      <Main/>
+      <App/>
   </React.StrictMode>
 );
  
