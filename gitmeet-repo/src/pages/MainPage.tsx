@@ -1,9 +1,11 @@
 import '../style/MainPage.css'
 
+import { Navbar } from '../components/Navbar'
+
 export function MainPage(){
     return(
-        <div>
-            
+        <div className='wrapper'>
+            <Navbar/>
         </div>
     )
 }
