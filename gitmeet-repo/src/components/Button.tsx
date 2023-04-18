@@ -1,7 +1,9 @@
-import { ButtonHTMLAttributes } from 'react'
+import '../style/ComponentButton.css'
 
 export function Button(){
     return(
-        <Button/>
+        <button>
+            Search...
+        </button>
     )
 }
