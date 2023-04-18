@@ -1,8 +1,27 @@
 *{
   margin: 0;
   padding: 0;
-}
-  
-body{
   background-color: #16151a;
+}
+
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2%;
+
+  display: flex;
+}
+
+/* Navbar */
+
+nav{
+  margin-top: 2rem;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: space-around;
 }
