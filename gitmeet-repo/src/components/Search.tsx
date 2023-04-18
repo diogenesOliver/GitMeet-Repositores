@@ -4,7 +4,7 @@ export function Seacrh(){
     return(
         <input
         type="text"
-        placeholder="Search..."
+        placeholder="Search the user's GitHub..."
         className="input-search"
         />
     )
