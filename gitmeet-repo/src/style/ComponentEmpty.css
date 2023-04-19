@@ -1,0 +1,16 @@
+.empty-page{
+    margin-top: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empty-page p{
+    color: #80808081;
+    font-size: 2.5rem;
+}
+
+.empty-page svg{
+    height: 5rem;
+}
