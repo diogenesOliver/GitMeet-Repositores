@@ -28,3 +28,23 @@
     color: var(--text-inputColor);
     font-size: var(--text-inputFont);
 }
+
+.empty-page{
+    margin-top: 40rem;
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empty-page p{
+    color: #80808081;
+    font-size: 2.5rem;
+}
+
+.empty-page svg{
+    margin-top: .5rem;
+    height: 5rem;
+}
