@@ -1,8 +1,18 @@
 import '../style/ComponentButton.css'
 
-export function Button(){
-    return(
-        <button>
+import { useNavigate } from 'react-router-dom'
+
+export function Button() {
+
+    const navigate = useNavigate()
+    const goToRepositoriesPage = () => {
+        navigate('/repositories')
+    }
+
+    return (
+        <button
+            onClick={goToRepositoriesPage}
+        >
             Search...
         </button>
     )
