@@ -1,11 +1,11 @@
-import '../style/MainPage.css'
+import '../style/RepositoriesPage.css'
 
-import { Navbar } from "../components/Navbar";
+import { ButtonToBackFromHomePageComponent } from '../components/ButtonToBack'
 
 export function Repositories(){
     return(
         <div className='wrapper'>
-            <Navbar/>
+            <ButtonToBackFromHomePageComponent/>
         </div>
     )
 }
